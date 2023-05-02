@@ -1,0 +1,381 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   border: none;
+   outline: none;
+   scroll-behavior: smooth;
+   font-family: 'popins', sans-serif; 
+}
+:root{
+    --second-color: #ed028fb7;
+    --main-color: #0879fa;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: url("krish3.JPG") no-repeat fixed;
+    width: 100%;
+    height: 100px;
+     background-size: cover;
+    background-position: center;  
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 5%;
+    background: transparent;
+    backdrop-filter: blur(1px);
+    /* background: linear-gradient(60deg,
+                                #53e614,
+                                #18ef87,
+                                #00bbff,
+                                #6909c9,
+                                #ea09ea,
+                                #f4086e,
+                                #cc075c,
+                                #cf0a0a,
+                                #ce1010,
+                                #cd9105,
+                                #dbe309,
+                                #67e712,
+                                #0fe624,
+                                #1deda0,
+                                #0bbe97,
+                                #427cd2); */
+    border-radius: 100px 100px;                            
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    z-index: 100;
+}
+
+.header:hover{
+    background: linear-gradient(60deg,
+    #53e614,
+    #18ef87,
+    #00bbff,
+    #6909c9,
+    #ea09ea,
+    #f4086e,
+    #cc075c,
+    #cf0a0a,
+    #ce1010,
+    #cd9105,
+    #dbe309,
+    #67e712,
+    #0fe624,
+    #1deda0,
+    #0bbe97,
+    #427cd2);
+}
+
+.logo{
+    font-size: 3rem;
+    color: #0879fa;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 12px;                            
+}
+
+/* .logo:hover{
+    text-decoration: underline;
+    color: #0000;
+    
+} */
+
+
+
+.navbar .social-media a{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+   font-size: 4rem;
+   margin: 10px;
+
+}
+
+
+a .bxl-instagram{
+    color: #ff2f00 ;
+   
+}
+
+a .bxl-instagram:hover{
+
+    box-shadow: 0 0 4rem var(--main-color);
+    border-radius: 50%;
+    background: #191414;
+    
+
+}
+a .bxl-facebook{
+    color: #3b76f6;
+   
+}
+
+a .bxl-facebook:hover{
+
+    box-shadow: 0 0 4rem var(--main-color);
+    border-radius: 50%;
+    background: #191414;
+
+
+
+}
+
+a .bxl-github{
+    color: #191414;
+   
+}
+
+a .bxl-github:hover{
+
+    box-shadow: 0 0 4rem var(--main-color);
+    border-radius: 50%;
+    background: #191414;
+    color: #fff;
+}
+
+
+
+a .bxl-gmail{
+    color: rgb(5, 111, 5);
+   
+}
+
+
+a .bxl-gmail:hover{
+
+    box-shadow: 0 0 4rem var(--main-color);
+    border-radius: 50%;
+    background: #191414;
+    color: #fff;
+
+}
+
+
+section{
+    min-height: 100vh;
+    padding: 10rem;
+}
+
+
+.home{
+    position: fixed;
+    top: 300px;
+    padding-left: 75px;
+    /* background: linear-gradient(60deg,
+                                #53e614,
+                                #18ef87,
+                                #cd9105,
+                                #dbe309,
+                                #67e712,
+                                #0fe624,
+                                #1deda0,
+                                #0bbe97); */
+
+    border: 3px solid var(--main-color);                            
+    backdrop-filter: blur(20px);
+    border-radius: 70px 20px;
+    padding: 30px;
+    border-style: double;
+    margin: 20px;
+
+
+}
+
+.home:hover{
+    box-shadow: 0 0 4rem var(--main-color);
+
+}
+
+.home-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color:var(--main-color)
+
+}
+.home-content h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--main-color);
+}
+ span{
+    color: var(--second-color);
+}
+
+
+.btn{
+    display: flex;
+    padding: 1rem 2.8rem;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.btn:hover{
+    background: var(--second-color);
+    color: white;
+    box-shadow: 0 0 2rem var(--second-color);
+}
+
+.home-two{
+    position: fixed;
+    top: 450px;
+    right: 0;
+    padding-right: 75px;
+    /* background: linear-gradient(60deg,
+                                #53e614,
+                                #18ef87,
+                                #67e712,
+                                #0fe624,
+                                #1deda0,
+                                #0bbe97,
+                                #d10c54); */
+    border: 2px solid var(--second-color);                            
+    backdrop-filter: blur(20px);
+    border-radius: 70px 20px;
+    padding: 40px;
+    margin: 20px;
+
+}
+
+.home-two:hover{
+    box-shadow: 0 0 4rem var(--second-color);
+
+}
+
+
+
+
+.home-cont h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color:var(--main-color)
+
+}
+
+.home-cont h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--main-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media (max-width: 1200px){
+    html {
+        font-size: 55%;
+
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+    .social-media{
+        justify-content: center;
+        align-items: center; 
+    }
+}
+
+
+
+@media (max-width: 840px){
+
+    .home{
+        position: block;
+        top: 150px;
+
+}
+
+.home-two{
+    position: block;
+    top: 450px;
+
+}
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+    }
+
+    .header{
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+}
+@media (max-width: 530px) {
+
+    .navbar.social-media{
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .home{
+        position: block;
+        top: 150px;
+        
+
+}
+
+.home-two{
+    position: flex;
+    top: 450px;
+    left: 0;
+
+}
+}
+
+
+   
